@@ -22,6 +22,8 @@ library(hexSticker)
 library(showtext)
 library(ggplot2)
 
+source('config.R')
+
 course <- 'DATA 606'
 url <- paste0('https://', tolower(semester), year, '.data606.net')
 
@@ -67,7 +69,7 @@ p
 
 out_file <- paste0(sub(' ', '', course), '-', sub(' ', '', semester), year, '.png')
 sticker <- sticker(p,
-				   package = paste0(course, ' ', semester),
+				   package = paste0(course, ' ', semester, ' ', year),
 				   p_x = 1, p_y = 1.45,
 				   p_size = 12,
 				   p_color = color1,
