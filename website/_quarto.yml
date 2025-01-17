@@ -3,20 +3,20 @@ project:
   output-dir: "../docs/"
 
 website:
-  # announcement: 
-  #   # content: "The first meetup will be at 8:00pm on Wednesday, August 28th. Find the link to join on the schedule page."
-  #   content: "There was an error with the Slack invite link in Brightspace. [Click here](https://join.slack.com/t/data606fall2024/shared_invite/zt-2pkj7i0kz-lYHZ67EQIDPSzsclNL6VFA) to join the Slack channel."
-  #   # position: below-navbar # above-navbar or below-navbar
-  #   icon: slack #info-circle # https://icons.getbootstrap.com
-  #   dismissable: false
-  #   type: warning # primary, secondary, success, danger, warning, info, light, dark
+  announcement:
+    # content: "The first meetup will be at 8:00pm on Wednesday, August 28th. Find the link to join on the schedule page."
+    content: "[Click here](https://join.slack.com/t/data606spring2025/shared_invite/zt-2xcspkyh1-wBK~_M5ESx0SnlCuiZcIOQ) to join the Slack channel."
+    # position: below-navbar # above-navbar or below-navbar
+    icon: slack #info-circle # https://icons.getbootstrap.com
+    dismissable: false
+    type: warning # primary, secondary, success, danger, warning, info, light, dark
 
   page-navigation: false
-  title: "DATA 505 Fall 2024"
+  title: "DATA 606 Spring 2025"
   description: "DATA 606 - Statistics and Probability - CUNY School of Professional Studies"
-  site-url: "https://fall2024.data606.net/"
+  site-url: "https://spring2025.data606.net/"
 
-  repo-url: https://github.com/jbryer/DATA606Fall2024
+  repo-url: https://github.com/jbryer/DATA606-2025-Spring
   repo-actions: [edit, issue]
 
   open-graph: true
