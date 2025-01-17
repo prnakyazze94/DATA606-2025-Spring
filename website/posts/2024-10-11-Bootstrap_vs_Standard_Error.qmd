@@ -2,7 +2,7 @@
 title: "Bootstrap vs Standard Error Confidence Intervals"
 author: "Jason Bryer"
 date: 2024-10-11
-draft: false
+draft: true
 description: "Comparing the confidence intervals using standard error and the bootstrap."
 categories: ["Miscellaneous"]
 image: "2024-10-11-Bootstrap_vs_Standard_Error.png"
