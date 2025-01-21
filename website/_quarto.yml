@@ -4,10 +4,9 @@ project:
 
 website:
   # announcement:
-  #   # content: "The first meetup will be at 8:00pm on Wednesday, August 28th. Find the link to join on the schedule page."
-  #   content: "[Click here](https://join.slack.com/t/data606spring2025/shared_invite/zt-2xcspkyh1-wBK~_M5ESx0SnlCuiZcIOQ) to join the Slack channel."
+  #   content: "The first meetup will be at 8:00pm on Wednesday, January 29th. Find the link to join on the [schedule page](/course/schedule.html)."
   #   # position: below-navbar # above-navbar or below-navbar
-  #   icon: slack #info-circle # https://icons.getbootstrap.com
+  #   icon: info-circle # https://icons.getbootstrap.com
   #   dismissable: false
   #   type: info # primary, secondary, success, danger, warning, info, light, dark
   announcement:
