@@ -15,14 +15,14 @@ for(i in 1:nrow(meetups)) {
 		if(!is.na(meetups[i,]$Video)) {
 			blogcontent <- paste0(blogcontent, '<iframe width="560" height="315" src="https://www.youtube.com/embed/', meetups[i,]$Video, '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
 		}
-		
+
 		additionalcontent <- ''
 		if(!is.na(meetups[i,]$Resources)) {
 			additionalcontent <- meetups[i,]$Resources
 		}
-		
+
 		pubdate <- as.character(min(as.Date(meetups[i,]$Date), Sys.Date()))
-		
+
 		meetup_image(
 			title = meetups[i,]$Topic,
 			date = format(meetups[i,]$Date, '%B %d, %Y'),
@@ -31,7 +31,7 @@ for(i in 1:nrow(meetups)) {
 
 		cat('---', '\n',
 			'title: "', meetups[i,]$Topic, '"\n',
-			'author: "Jason Bryer and Angela Lui"', '\n',
+			'author: "Jason Bryer"', '\n',
 			'date: ', pubdate, '\n',
 			'draft: false', '\n',
 			'description: "Slides and recording for the *', meetups[i,]$Topic, '* meetup."\n',
@@ -57,7 +57,7 @@ for(i in tocopy) {
 	from <- paste0('Slides/', i)
 	to <- paste0('docs/slides/', i)
 	cat(paste0('Copying ', from, ' to ', to, '...\n'))
-	
+
 	success <- FALSE
 	if(i %in% ignore) {
 		cat(paste0('Ignoring ', i, '...\n'))
@@ -71,12 +71,12 @@ for(i in tocopy) {
 	if(!success) {
 		cat(paste0('ERROR: ', i, ' did not copy!\n'))
 	}
-	
+
 	if(tolower(tools::file_ext(from)) == 'html') {
 		pdf <- paste0(tools::file_path_sans_ext(from), '.pdf')
-		
+
 		build_pdf <- !file.exists(pdf) | file.info(from)$mtime > file.info(pdf)$mtime
-		
+
 		if(build_pdf) {
 			wd <- setwd('Slides/')
 			tryCatch({
@@ -88,7 +88,7 @@ for(i in tocopy) {
 				print(e)
 			}, finally = { setwd(wd) })
 		}
-		
+
 		if(file.exists(pdf)) { # Copy PDF to docs directory
 			file.copy(pdf, paste0('docs/slides/', basename(pdf)))
 		}
