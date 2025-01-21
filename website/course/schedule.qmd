@@ -6,7 +6,7 @@ editor_options:
 ---
 
 This page contains an outline of the topics, content, and assignments for the semester.
-Note that this schedule will be updated as the semester progresses, with all changes documented here. **Meetups start at 8:00pm.**
+Note that this schedule will be updated as the semester progresses, with all changes documented here. **Meetups start at 8:00pm unless noted otherwise.**
 
 [Click here to join the meetups](https://us02web.zoom.us/j/82211588219?pwd=NufjffoPm9BTE05ClrmqFaogM9Rdtr.1).
 
@@ -52,7 +52,7 @@ if(sum(video) > 0) {
 }
 
 schedule |>
-	dplyr::select(Date, Topic, Slides, Video) |>
+	dplyr::select(Date, StartTime, Topic, Slides, Video) |>
 	knitr::kable(align = c('l', 'l', 'c', 'c'), escape = FALSE) #|> kableExtra::kable_styling(full_width = FALSE)
 ```
 
