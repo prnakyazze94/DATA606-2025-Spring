@@ -1,6 +1,6 @@
 ---
 title: "Welcome to DATA606!"
-author: "Jason Bryer and Angela Lui"
+author: "Jason Bryer"
 date: "2024-06-29"
 image: "welcome.png"
 description: "Important information on how to get started with this course. Please read this post carefully."
