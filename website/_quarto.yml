@@ -42,11 +42,11 @@ website:
         href: course/schedule.qmd
         text: "Schedule"
       - icon: github
-        href: https://github.com/jbryer/DATA606Fall2024
+        href: https://github.com/jbryer/DATA606-2025-Spring
         text: "Github"
         target: _blank
       - icon: slack
-        href: https://data606fall2024.slack.com
+        href: https://data606spring2025.slack.com
         text: "Slack"
         target: _blank
       - icon: link-45deg
@@ -63,7 +63,7 @@ website:
             target: _blank
       - icon: envelope
         text: "Email"
-        url: mailto:jason.bryer@cuny.edu,angela.lui@cuny.edu?subject=DATA606
+        url: mailto:jason.bryer@cuny.edu?subject=DATA606
 
     style: "docked"
     search: true
