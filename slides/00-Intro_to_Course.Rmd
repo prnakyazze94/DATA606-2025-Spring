@@ -86,7 +86,7 @@ knitr::include_graphics('images/BoysFall2019.jpg')
 # Runner...
 
 <table border='0' width='100%'><tr><td>
-<center><img src='images/2020Dopey.jpg' height='450'></center>
+<center><img src='images/2025DisneyMarathon.jpg' height='450'></center>
 </td><td>
 <center><img src='images/2019NYCMarathon.jpg' height='450'></center>
 </td></tr></table>
@@ -311,7 +311,7 @@ Before Wednesday (January 29th):
 
 Then:
 
-* Start Lab 1 (due February 2n d)
+* Start Lab 1 (due February 2nd)
 
 ---
 class: inverse, right, middle, hide-logo
