@@ -56,7 +56,7 @@ class: center, middle, inverse, title-slide
 
 ---
 
-# A little about Jason...
+# A little about me...
 
 * Assistant Professor at CUNY in Data Science and Information Systems
 
