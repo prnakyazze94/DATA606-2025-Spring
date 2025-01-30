@@ -2,6 +2,10 @@
 title: "DAACS"
 ---
 
+```{r, echo=FALSE, results='hide'}
+source('../../config.R')
+```
+
 ## Formative Assessments
 
 Formative assessments are a type of assessment that help students and teachers *monitor student learning*. These are low stakes assessments (i.e. you get credit for doing them, not based upon how you did). I will use the results to inform my instruction.
