@@ -2,7 +2,7 @@
 title: "DAACS"
 ---
 
-```{r, echo=FALSE, results='hide'}
+```{r, echo=FALSE, results='hide', message=FALSE, warning=FALSE, error=FALSE}
 source('../../config.R')
 ```
 

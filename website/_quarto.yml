@@ -3,12 +3,12 @@ project:
   output-dir: "../docs/"
 
 website:
-  announcement:
-    content: "[Click here](https://join.slack.com/t/data606spring2025/shared_invite/zt-2xcspkyh1-wBK~_M5ESx0SnlCuiZcIOQ) to join the Slack channel. This will be our primary form of communication for the semester."
-    # position: below-navbar # above-navbar or below-navbar
-    icon: slack # https://icons.getbootstrap.com
-    dismissable: false
-    type: info # primary, secondary, success, danger, warning, info, light, dark
+  # announcement:
+  #   content: "[Click here](https://join.slack.com/t/data606spring2025/shared_invite/zt-2xcspkyh1-wBK~_M5ESx0SnlCuiZcIOQ) to join the Slack channel. This will be our primary form of communication for the semester."
+  #   # position: below-navbar # above-navbar or below-navbar
+  #   icon: slack # https://icons.getbootstrap.com
+  #   dismissable: false
+  #   type: info # primary, secondary, success, danger, warning, info, light, dark
   # announcement:
   #   content: "The first meetup to introduce the course will be Thursday at 1pm. The link to join is on the [schedule](/course/schedule.html) page. If you can't make it at this time the recording will be posted by the end of the day."
   #   # position: below-navbar # above-navbar or below-navbar
